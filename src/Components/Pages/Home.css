@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  position: relative;
+  right: 0;
+  margin-bottom: 0;
+  z-index: -1;
+}

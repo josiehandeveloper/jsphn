@@ -1,0 +1,42 @@
+.services-container {
+  padding: 5em 9em 5em 9em;
+}
+
+.services-container > h1 {
+  font-size: 50px;
+  padding-bottom: 0.5em;
+}
+
+.services-item-1 > ul > li {
+  line-height: 1.6;
+}
+
+.services-item-1 > ul > li > h3 {
+  font-size: 35px;
+}
+
+.services-item-1 > ul > li > p {
+  font-size: 30px;
+}
+
+@media all and (max-width: 900px) {
+  .services-container {
+    padding: 5em 4em 5em 4em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .services-container {
+    padding: 4em 2.5em 4em 2.5em;
+  }
+  .services-container > h1 {
+    font-size: 40px;
+    padding-bottom: 0.5em;
+  }
+  .services-item-1 > ul > li > h3 {
+    font-size: 25px;
+  }
+  .services-item-1 > ul > li > p {
+    font-size: 20px;
+  }
+}
