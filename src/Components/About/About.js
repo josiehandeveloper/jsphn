@@ -16,10 +16,10 @@ function About() {
             CA.
           </h2>
           <p>
-            I've always been interested in techbology work. Building a PC tower
-            a couple years ago sparked an interest in software and led me to
-            Thinkful. Web development incorporates technical coding skills along
-            with design components that are interweaved to create the final
+            I've always been interested in techbology. Building a PC tower a
+            couple years ago sparked an interest in software and led me to
+            Thinkful. I enjoy being part of the the technical development along
+            with design aspects that are interweaved to create the final
             product. I am willing to take on any challenges that will help me
             become a better developer. Outside of coding, I enjoy learning new
             languages and traveling to different countries. Last year, I went on
