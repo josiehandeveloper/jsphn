@@ -3,11 +3,13 @@ import "./Services.css";
 
 function Services() {
   return (
-    <section id="services" className="services-container">
-      <h1>Services</h1>
-
-      <div className="group-services">
-        <div className="services-item-1">
+    <section className="section-services">
+      <div className="services-container">
+        <div className="services-left">
+          <div className="services-left-bottom"></div>
+        </div>
+        <div className="services-right">
+          <h1>Services</h1>
           <ul>
             <li>
               <h3>Functionality</h3>
@@ -15,10 +17,7 @@ function Services() {
             </li>
             <li>
               <h3>Aesthetics</h3>
-              <p>
-                Focus on great design, making the finished product aesthetically
-                pleasing
-              </p>
+              <p>Focus on great design</p>
             </li>
             <li>
               <h3>User Experience</h3>

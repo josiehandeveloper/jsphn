@@ -5,7 +5,6 @@ import "./About.css";
 function About() {
   return (
     <section id="about" className="about-container">
-      <h1>About</h1>
       <div className="group">
         <div className="about-item-1">
           <img src={profile} alt="profile" className="main_img" />
@@ -16,7 +15,7 @@ function About() {
             CA.
           </h2>
           <p>
-            I've always been interested in techbology. Building a PC tower a
+            I've always had a fascination with technology. Building a PC tower a
             couple years ago sparked an interest in software and led me to
             Thinkful. I enjoy being part of the the technical development along
             with design aspects that are interweaved to create the final

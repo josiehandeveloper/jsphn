@@ -1,42 +1,68 @@
+.section-services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11em 0 11em 0;
+}
+
 .services-container {
-  padding: 5em 9em 5em 9em;
+  margin: 0 1;
+  width: 60%;
+  height: 400px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8e2dc;
 }
 
-.services-container > h1 {
-  font-size: 50px;
-  padding-bottom: 0.5em;
+.services-left {
+  width: 50%;
+  height: 300px;
+  display: flex;
+  margin-top: -10em;
+  margin-left: -5em;
+  background: url(../../images/student.jpg) center/cover;
 }
 
-.services-item-1 > ul > li {
+.services-left-bottom {
+  background: url(../../images/cafe.jpg);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  margin-top: 13em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.services-right {
+  width: 50%;
+  min-height: 350px;
+  margin-left: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-right > ul {
+  list-style: none;
+  margin-right: -5em;
+}
+.services-right > ul > li {
   line-height: 1.6;
 }
 
-.services-item-1 > ul > li > h3 {
-  font-size: 35px;
-}
-
-.services-item-1 > ul > li > p {
+.services-right > ul > li > h3 {
   font-size: 30px;
 }
 
-@media all and (max-width: 900px) {
-  .services-container {
-    padding: 5em 4em 5em 4em;
-  }
+.services-right > ul > li > p {
+  font-size: 26px;
 }
 
-@media only screen and (max-width: 500px) {
-  .services-container {
-    padding: 4em 2.5em 4em 2.5em;
-  }
-  .services-container > h1 {
-    font-size: 40px;
-    padding-bottom: 0.5em;
-  }
-  .services-item-1 > ul > li > h3 {
-    font-size: 25px;
-  }
-  .services-item-1 > ul > li > p {
-    font-size: 20px;
-  }
+.services-right > h1 {
+  font-size: 40px;
+  padding-bottom: 0.7em;
 }
