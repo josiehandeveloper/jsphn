@@ -60,6 +60,10 @@
   transition: transform 250ms;
 }
 
+.dahlia {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .hero-container:hover .hero-item-2 > img {
   transform: translateY(40px);
 }
