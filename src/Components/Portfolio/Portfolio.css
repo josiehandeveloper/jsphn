@@ -1,8 +1,5 @@
-.portfolio > h1 {
-  display: flex;
-}
-
 .portfolio__container {
+  height: 100vh;
   padding: 4rem 9em 4em 9em;
   background-color: #f7f7f7;
   display: flex;
@@ -14,4 +11,21 @@
 .portfolio__items {
   display: flex;
   flex-direction: row;
+}
+
+.portfolio__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1em;
+}
+
+.portfolio__item__img {
+  width: 300px;
+  object-fit: cover;
+}
+
+.portfolio__item__box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }

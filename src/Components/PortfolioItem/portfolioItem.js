@@ -1,5 +1,5 @@
 import React from "react";
-import "./portfolioItem.css";
+import "../Portfolio/Portfolio.css";
 
 function PortfolioItem(props) {
   return (
