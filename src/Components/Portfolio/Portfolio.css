@@ -1,137 +1,17 @@
-.portfolio-container {
-  padding: 3em 9em 0em 9em;
-  background-color: #f7f7f7;
-}
-
-.row {
+.portfolio > h1 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
 }
 
-.column {
+.portfolio__container {
+  padding: 4rem 9em 4em 9em;
+  background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  padding-bottom: 10em;
+  align-items: center;
+  justify-content: center;
 }
 
-.portfolio-container > h1 {
-  color: black;
-  font-size: 40px;
-  padding-bottom: 2em;
-}
-
-.portfolio-pic > h2 {
-  font-size: 35px;
-}
-
-.portfolio-info > p {
-  padding-top: 1em;
-  font-size: 24px;
-  line-height: 1.6;
-  padding-bottom: 1em;
-}
-
-.portfolio-info > ul > li {
-  font-size: 25px;
-  line-height: 1.6;
-}
-
-.watchit_img {
-  width: 100%;
-  height: auto;
-}
-
-.grateful_img {
-  width: 100%;
-  height: auto;
-}
-
-.urban_img {
-  width: 100%;
-  height: auto;
-  padding: 0 2em 0 0;
-}
-
-.link {
-  text-decoration: none;
-  padding-right: 10px;
-  font-size: 25px;
-  color: black;
-  font-weight: bold;
-}
-
-@media (max-width: 900px) {
-  .row {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    padding-bottom: 7em;
-  }
-  .portfolio-container {
-    padding: 2em 3em 0em 3em;
-    background-color: #f7f7f7;
-  }
-  .watchit_img {
-    width: 100%;
-    height: auto;
-  }
-
-  .grateful_img {
-    width: 100%;
-    height: auto;
-  }
-
-  .urban_img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .portfolio-container {
-    padding: 3em 2.5em 0em 2.5em;
-    background-color: #f7f7f7;
-  }
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    padding-bottom: 7em;
-  }
-  .watchit_img {
-    width: 100%;
-    object-fit: contain;
-    margin-bottom: -6em;
-  }
-
-  .grateful_img {
-    object-fit: contain;
-  }
-
-  .urban_img {
-    object-fit: contain;
-    margin-bottom: -6em;
-  }
-  .portfolio-info > p {
-    padding-top: 1em;
-    font-size: 20px;
-    line-height: 1.6;
-    padding-bottom: 1em;
-  }
-  .portfolio-info > ul > li {
-    font-size: 20px;
-    line-height: 1.6;
-  }
+.portfolio__items {
+  display: flex;
+  flex-direction: row;
 }

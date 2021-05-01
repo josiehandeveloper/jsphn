@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   background-color: #d8e2dc;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
 }
 
 .services-left {
@@ -25,12 +25,12 @@
   margin-top: -10em;
   margin-left: -5em;
   background: url(../../images/coding.jpg) center/cover;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
 }
 
 .services-left-bottom {
   background: url(../../images/notepad.jpg) center/cover;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   width: 250px;
   height: 300px;
   display: flex;
