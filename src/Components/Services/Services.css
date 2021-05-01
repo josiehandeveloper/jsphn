@@ -2,12 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 11em 0 11em 0;
 }
 
 .services-container {
   margin: 0 1;
-  width: 60%;
+  width: 0%;
   height: 400px;
   max-width: 800px;
   display: flex;
@@ -30,7 +29,7 @@
 
 .services-left-bottom {
   background: url(../../images/notepad.jpg) center/cover;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   width: 250px;
   height: 300px;
   display: flex;

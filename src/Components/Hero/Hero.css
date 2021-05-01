@@ -1,151 +1,37 @@
-.hero-container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: -3em;
+.hero__container {
   height: 100vh;
-}
-
-.hero-wrapper {
-  position: relative;
-}
-
-.hero-items {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-item-1 {
+.hero__wrapper {
   display: flex;
   flex-direction: column;
-  flex: 2;
-}
-
-.hero-item-1 > h1 {
-  display: flex;
-  justify-content: left;
-  font-size: 120px;
-  letter-spacing: 3px;
-}
-
-.hero-item-1 > h2 {
-  display: flex;
   justify-content: center;
-  font-size: 120px;
-  letter-spacing: 2px;
-  transition: transform 250ms;
+  align-items: center;
+  margin-top: -3em;
 }
 
-.hero-container:hover .hero-item-1 > h2 {
-  transform: translateX(40px);
+.hero__item__1 {
+  position: absolute;
+  font-size: 40px;
+  left: 32%;
+  top: 21.5%;
+  transform: translate(0%, 0%);
 }
 
-.hero-item-2 {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 5em;
-  margin-left: -2em;
+.hero__item__2 {
+  position: absolute;
+  font-size: 25px;
+  top: 46%;
+  right: 22%;
+  transform: rotate(90deg);
 }
 
-.hero-item-3 {
-  display: flex;
-  margin-top: -5em;
-  z-index: -1;
-  opacity: 0.9;
-}
-
-.hero-item-2 > img {
-  transition: transform 250ms;
-}
-
-.dahlia {
+.hero__item__3 {
+  position: absolute;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-}
-
-.hero-container:hover .hero-item-2 > img {
-  transform: translateY(40px);
-}
-
-@media all and (max-width: 900px) {
-  .hero-container {
-    padding: 5em 4em 4em 4em;
-    display: flex;
-    flex-flow: column;
-  }
-  .hero-item-1 > h1 {
-    display: flex;
-    font-size: 85px;
-    letter-spacing: 3px;
-    justify-content: space-between;
-  }
-
-  .hero-item-1 > h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 90px;
-    letter-spacing: 2px;
-    transition: transform 250ms;
-  }
-  .hero-item-2 > img {
-    transition: transform 250ms;
-    display: flex;
-    justify-self: start;
-  }
-
-  .dahlia {
-    width: 400px;
-  }
-  .scroll {
-    height: 180px;
-  }
-  .hero-item-2 {
-    display: flex;
-    margin-top: 3em;
-    margin-left: 0;
-  }
-  .hero-item-3 {
-    display: flex;
-    flex-direction: column;
-    margin-top: -5em;
-    z-index: -1;
-    opacity: 0.9;
-  }
-  .hero-items {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-@media all and (max-width: 500px) {
-  .hero-container {
-    padding: 5em 2.5em 3em 2.5em;
-    display: flex;
-    flex-flow: row;
-    margin-left: -1.3em;
-  }
-  .hero-item-1 > h1 {
-    display: flex;
-    font-size: 50px;
-    letter-spacing: 2px;
-    justify-content: left;
-  }
-
-  .hero-item-1 > h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    letter-spacing: 2px;
-  }
-  .dahlia {
-    width: 240px;
-    height: auto;
-    padding-top: 3em;
-  }
-  .scroll {
-    height: 160px;
-    width: 35px;
-    margin-top: -3em;
-  }
+  z-index: -1;
 }
