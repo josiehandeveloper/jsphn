@@ -3,8 +3,8 @@ import "./Services.css";
 
 function Services() {
   return (
-    <section className="section-services">
-      <div className="services-container">
+    <div className="services__container">
+      <div className="services__wrapper">
         <div className="services-left">
           <div className="services-left-bottom"></div>
         </div>
@@ -26,7 +26,7 @@ function Services() {
           </ul>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

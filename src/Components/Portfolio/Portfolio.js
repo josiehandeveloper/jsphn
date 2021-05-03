@@ -7,13 +7,17 @@ import grateful from "../../images/Grateful/grateful1.png";
 
 function Portfolio() {
   return (
-    <div className="portfolio__container">
+    <div className="portfolio">
       <h1>Portfolio</h1>
-      <ul className="portfolio__items">
-        <PortfolioItem src={urbanGif} label="UrbanGif" path="/portfolio" />
-        <PortfolioItem src={watchIt} label="WatchIt" path="/portfolio" />
-        <PortfolioItem src={grateful} label="Grateful" path="/portfolio" />
-      </ul>
+      <div className="portfolio__container">
+        <div className="portfolio__wrapper">
+          <ul className="portfolio__items">
+            <PortfolioItem src={urbanGif} label="UrbanGif" path="/portfolio" />
+            <PortfolioItem src={watchIt} label="WatchIt" path="/portfolio" />
+            <PortfolioItem src={grateful} label="Grateful" path="/portfolio" />
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
