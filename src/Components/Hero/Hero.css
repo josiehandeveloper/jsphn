@@ -87,12 +87,12 @@
   }
 
   .hero__container:hover .hero__item__1 > h1 {
-    transform: translateX(170px);
+    transform: translateX(145px);
     transition: transform 0.4s ease-in-out;
   }
 
   .hero__container:hover .hero__item__2 > h2 {
-    transform: translateX(45px);
+    transform: translateX(26px);
     transition: transform 0.4s ease-in-out;
   }
   .dahlia {
