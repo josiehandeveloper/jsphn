@@ -7,17 +7,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2em;
+}
+.about__item__2 {
+  width: 80%;
 }
 
 .main__img {
   width: 180px;
   height: auto;
-  padding: 2em;
 }
 
 .about__item__2 > h2 {
   font-size: 35px;
-  padding: 0em 11rem 1rem 11rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +28,6 @@
 .about__item__2 > p {
   font-size: 23px;
   line-height: 1.6;
-  padding: 0em 11rem 2rem 11rem;
   display: flex;
   justify-content: center;
   align-items: center;
