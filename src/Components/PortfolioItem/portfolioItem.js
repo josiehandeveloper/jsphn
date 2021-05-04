@@ -1,24 +1,25 @@
 import React from "react";
-import "../Portfolio/Portfolio.css";
+import { Link } from "react-router-dom";
 
 function PortfolioItem(props) {
   return (
-    <div className="portfolio__item__container">
+    <>
       <li className="portfolio__item">
-        <div className="portfolio__item__box" to={props.path}>
-          <div className="portfolio__item__wrap" data-category={props.label}>
+        <Link className="portfolio__item__link" to={props.path}>
+          <div className="portfolio__item__pic-wrap">
             <img
-              src={props.src}
               className="portfolio__item__img"
               alt="Portfolio img"
+              src={props.src}
             />
           </div>
           <div className="portfolio__item__info">
+            <h4 className="portfolio__item__title">{props.title}</h4>
             <h5 className="portfolio__item__text">{props.text}</h5>
           </div>
-        </div>
+        </Link>
       </li>
-    </div>
+    </>
   );
 }
 
