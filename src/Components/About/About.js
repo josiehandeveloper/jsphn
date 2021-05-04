@@ -4,12 +4,12 @@ import "./About.css";
 
 function About() {
   return (
-    <section id="about" className="about-container">
-      <div className="group">
-        <div className="about-item-1">
-          <img src={profile} alt="profile" className="main_img" />
+    <div id="about" className="about">
+      <div className="about__container">
+        <div className="about__item__1">
+          <img src={profile} alt="profile" className="main__img" />
         </div>
-        <div className="about-item-2">
+        <div className="about__item__2">
           <h2>
             I'm Jo! A full stack developer currently living in Orange County,
             CA.
@@ -27,7 +27,7 @@ function About() {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

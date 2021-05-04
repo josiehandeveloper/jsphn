@@ -4,7 +4,7 @@ import PortfolioItem from "../../Components/PortfolioItem/PortfolioItem";
 
 function Portfolio() {
   return (
-    <div className="portfolio">
+    <div id="portfolio" className="portfolio">
       <h1>Portfolio</h1>
       <div className="portfolio__container">
         <div className="portfolio__wrapper">
