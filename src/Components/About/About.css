@@ -71,4 +71,9 @@
     line-height: 1.6;
     padding: 0em 0rem 0rem 0rem;
   }
+  .main__img {
+    width: 180px;
+    height: auto;
+    padding: 1em 0;
+  }
 }
