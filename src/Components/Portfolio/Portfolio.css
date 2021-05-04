@@ -99,4 +99,8 @@ h1 {
 }
 
 @media only screen and (max-width: 500px) {
+  .portfolio {
+    padding: 2em 1em 0 0;
+    background-color: #f7f7f7;
+  }
 }
