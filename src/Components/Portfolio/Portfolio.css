@@ -69,11 +69,6 @@ h1 {
   object-fit: cover;
 }
 
-.portfolio__item__img:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-}
-
 .portfolio__item__info {
   padding: 20px 30px 30px;
 }
