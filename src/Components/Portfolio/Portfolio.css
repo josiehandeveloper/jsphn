@@ -1,5 +1,5 @@
 .portfolio {
-  padding: 4em;
+  padding: 3em 0;
   background-color: #f7f7f7;
 }
 
@@ -96,4 +96,7 @@ h1 {
     display: flex;
     flex-flow: column;
   }
+}
+
+@media only screen and (max-width: 500px) {
 }

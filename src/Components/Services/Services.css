@@ -39,6 +39,10 @@
   border-radius: 10px;
 }
 
+.services__right__content > h1 {
+  padding-bottom: 0.5em;
+}
+
 @media only screen and (max-width: 768px) {
   .services__container {
     flex-direction: column;
@@ -53,5 +57,23 @@
     width: 80%;
     margin: 0;
     margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .services__right {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .services__right__content > h1 {
+    font-size: 25px;
+    padding-bottom: 0.8em;
+  }
+
+  .services__list {
+    list-style: none;
+    line-height: 1.6;
+    font-size: 15px;
   }
 }
