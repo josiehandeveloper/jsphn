@@ -30,7 +30,7 @@ class Navbar extends Component {
             </a>
           </li>
           <li className="nav__links">
-            <a href="#portfolio" className="portfolio">
+            <a href="#portfolio" className="portfolio-link">
               PORTFOLIO
             </a>
           </li>

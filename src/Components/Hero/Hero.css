@@ -4,34 +4,32 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .hero__wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -3em;
 }
 
 .hero__item__1 {
   position: absolute;
+  display: flex;
   font-size: 40px;
-  left: 32%;
-  top: 21.5%;
-  transform: translate(0%, 0%);
 }
 
 .hero__item__2 {
   position: absolute;
   font-size: 25px;
-  top: 46%;
-  right: 22%;
+  display: flex;
   transform: rotate(90deg);
 }
 
 .hero__item__3 {
+  display: flex;
   position: absolute;
+  justify-content: center;
+  align-items: center;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  z-index: -1;
 }
