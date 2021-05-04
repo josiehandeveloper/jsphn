@@ -1,72 +1,57 @@
+.services {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .services__container {
-  height: 100vh;
+  width: 90%;
+  max-width: 1000px;
+  margin: 5em auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.services__wrapper {
-  margin: 0 1;
-  width: 60%;
-  height: 400px;
-  max-width: 800px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: #d8e2dc;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-}
-
-.services-left {
-  width: 50%;
-  height: 300px;
-  display: flex;
-  margin-top: -10em;
-  margin-left: -5em;
-  background: url(../../images/coding.jpg) center/cover;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-}
-
-.services-left-bottom {
-  background: url(../../images/notepad.jpg) center/cover;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  width: 270px;
-  height: 300px;
-  display: flex;
-  margin-top: 13em;
-  margin-left: 5em;
-  margin-right: 3em;
-}
-
-.services-right {
-  width: 50%;
-  min-height: 350px;
-  margin-left: 6em;
-  margin-top: -3em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.services-right > ul {
+.services__list {
   list-style: none;
-  margin-right: -5em;
-}
-.services-right > ul > li {
   line-height: 1.6;
+  font-size: 20px;
 }
 
-.services-right > ul > li > h3 {
-  font-size: 30px;
+.services__left__pic {
+  width: 50%;
+  height: 500px;
+  background: url(../../images/coding.jpg) no-repeat center / cover;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
 }
 
-.services-right > ul > li > p {
-  font-size: 26px;
+.services__right {
+  width: 50%;
+  min-height: 300px;
+  background-color: #d8e2dc;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-left: -150px;
+  border-radius: 10px;
 }
 
-.services-right > h1 {
-  font-size: 40px;
-  padding-bottom: 0.7em;
+@media only screen and (max-width: 768px) {
+  .services__container {
+    flex-direction: column;
+    width: 100%;
+    margin: 4em 3em;
+  }
+  .services__left__pic {
+    width: 90%;
+    height: 400px;
+  }
+  .services__right {
+    width: 80%;
+    margin: 0;
+    margin-top: -100px;
+  }
 }
