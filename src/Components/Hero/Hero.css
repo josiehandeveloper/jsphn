@@ -19,12 +19,12 @@
 }
 
 .hero__item__2 {
-  top: 4.2em;
-  right: -5.85em;
+  top: -5em;
+  left: 0em;
   position: absolute;
   font-size: 25px;
   display: flex;
-  transform: rotate(90deg);
+  color: white;
 }
 
 .hero__item__3 {
@@ -77,12 +77,20 @@
     font-size: 30px;
   }
   .hero__item__2 {
-    top: 4.2em;
-    right: -5.85em;
+    top: 0.1em;
+    left: 0em;
     position: absolute;
-    font-size: 13px;
+    font-size: 20px;
     display: flex;
-    transform: rotate(90deg);
+    color: white;
+    font-weight: 400;
+  }
+
+  .hero__item__3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   }
 
   .hero__container:hover .hero__item__1 > h1 {
