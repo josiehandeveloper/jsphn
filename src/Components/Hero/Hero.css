@@ -19,7 +19,7 @@
 }
 
 .hero__item__2 {
-  top: -5em;
+  top: 0.1em;
   left: 0em;
   position: absolute;
   font-size: 25px;
@@ -44,7 +44,7 @@
 }
 
 .hero__container:hover .hero__item__2 > h2 {
-  transform: translateX(75px);
+  transform: translateX(240px);
   transition: transform 0.4s ease-in-out;
 }
 
@@ -99,7 +99,7 @@
   }
 
   .hero__container:hover .hero__item__2 > h2 {
-    transform: translateX(47px);
+    transform: translateX(55px);
     transition: transform 0.4s ease-in-out;
   }
   .dahlia {
