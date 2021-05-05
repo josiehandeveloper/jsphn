@@ -76,26 +76,25 @@
     display: flex;
     font-size: 30px;
   }
-
   .hero__item__2 {
     top: 4.2em;
     right: -5.85em;
     position: absolute;
-    font-size: 15px;
+    font-size: 13px;
     display: flex;
     transform: rotate(90deg);
   }
 
   .hero__container:hover .hero__item__1 > h1 {
-    transform: translateX(126px);
+    transform: translateX(140px);
     transition: transform 0.4s ease-in-out;
   }
 
   .hero__container:hover .hero__item__2 > h2 {
-    transform: translateX(13px);
+    transform: translateX(47px);
     transition: transform 0.4s ease-in-out;
   }
   .dahlia {
-    width: 250px;
+    width: 270px;
   }
 }
