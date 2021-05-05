@@ -99,7 +99,7 @@
   }
 
   .hero__container:hover .hero__item__2 > h2 {
-    transform: translateX(40px);
+    transform: translateX(36px);
     transition: transform 0.4s ease-in-out;
   }
   .dahlia {
