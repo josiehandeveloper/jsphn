@@ -28,8 +28,6 @@ h1 {
   margin-bottom: 24px;
 }
 
-/* Portfolio Items CSS */
-
 .portfolio__item {
   display: flex;
   flex-flow: row;
@@ -38,7 +36,7 @@ h1 {
   border-radius: 5px;
 }
 
-.portfolio__item__link {
+.portfolio__item__box {
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -76,6 +74,21 @@ h1 {
 .portfolio__item__title {
   font-size: 25px;
   color: black;
+}
+
+.portfolio__item__links {
+  padding: 3px;
+}
+
+.portfolio__item__links > a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-right: 5px;
+  background-color: #d8e2dc;
+  padding: 2px 3px;
 }
 
 .portfolio__item__text {

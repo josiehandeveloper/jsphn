@@ -14,6 +14,10 @@ function PortfolioItem(props) {
           </div>
           <div className="portfolio__item__info">
             <h4 className="portfolio__item__title">{props.title}</h4>
+            <h4 className="portfolio__item__links">
+              {props.live}
+              {props.code}
+            </h4>
             <h5 className="portfolio__item__text">{props.text}</h5>
           </div>
         </div>
