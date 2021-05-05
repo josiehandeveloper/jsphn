@@ -16,6 +16,7 @@
 .main__img {
   width: 180px;
   height: auto;
+  align-self: center;
 }
 
 .about__item__2 > h2 {
@@ -75,5 +76,6 @@
     width: 180px;
     height: auto;
     padding: 2em 0;
+    align-self: center;
   }
 }
