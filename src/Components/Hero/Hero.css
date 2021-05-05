@@ -44,7 +44,7 @@
 }
 
 .hero__container:hover .hero__item__2 > h2 {
-  transform: translateX(240px);
+  transform: translateX(236px);
   transition: transform 0.4s ease-in-out;
 }
 
