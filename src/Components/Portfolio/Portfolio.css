@@ -104,6 +104,10 @@ h1 {
   font-weight: 300;
 }
 
+.portfolio__item__tech {
+  line-height: 1.6;
+}
+
 @media only screen and (max-width: 1024px) {
   .portfolio__items {
     display: flex;
