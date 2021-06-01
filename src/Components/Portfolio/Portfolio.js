@@ -170,14 +170,14 @@ function Portfolio() {
                   <img
                     className="portfolio__item__img"
                     alt="Portfolio img"
-                    src="images/EnfantFleur/enfantfleur.png"
+                    src="images/LeQuotidian/le-quotidian.png"
                   />
                 </div>
                 <div className="portfolio__item__info">
-                  <h4 className="portfolio__item__title">Enfant Fleur</h4>
+                  <h4 className="portfolio__item__title">Le Quotidian</h4>
                   <h4 className="portfolio__item__links">
                     <a
-                      href="https://enfantfleur.com/"
+                      href="https://le-quotidian.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -185,16 +185,20 @@ function Portfolio() {
                     </a>
                   </h4>
                   <h5 className="portfolio__item__text">
-                    Enfant Fleur is an ecommerce store specializing in CBD
-                    products. I focused a lot on the aesthetics, using animation
-                    and a minimalistic layout to catch the attention of
-                    consumers.
+                    Le Quotidian is a mock ecommerce store selling environmental
+                    friendly products. It uses Commerce.js and Stripe to create
+                    a fully functional ecommerce site. The front end was
+                    designed with Material UI and the shipping form was created
+                    with React Hook Form.
                   </h5>
                   <ul className="portfolio__item__tech">
                     {" "}
                     <h3>Technologies Used:</h3>
-                    <li>WordPress</li>
-                    <li>Elementor Pro</li>
+                    <li>React.js</li>
+                    <li>Commerce.js</li>
+                    <li>React Hook Form</li>
+                    <li>Material UI</li>
+                    <li>Stripe</li>
                   </ul>
                 </div>
               </div>
