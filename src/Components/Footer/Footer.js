@@ -31,7 +31,7 @@ const Footer = () => {
         </a>
         <a
           className="link"
-          href="https://drive.google.com/file/d/1Br5xE3K_qKIy4SWjb3htBzk6jWtUuZpJ/view?usp=sharing"
+          href="https://docs.google.com/document/d/1aSMDBButRYQEdWI7NGBPORGpolytGyysqtswP2vPVoQ/export?format=pdf"
           target="_blank"
           rel="noreferrer"
         >
