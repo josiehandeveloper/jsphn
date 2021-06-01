@@ -170,7 +170,7 @@ function Portfolio() {
                   <img
                     className="portfolio__item__img"
                     alt="Portfolio img"
-                    src="images/Grateful/le-quotidian.png"
+                    src="images/LeQuotidian/le-quotidian.png"
                   />
                 </div>
                 <div className="portfolio__item__info">
