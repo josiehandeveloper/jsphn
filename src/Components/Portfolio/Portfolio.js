@@ -33,7 +33,7 @@ function Portfolio() {
       </div>
       <div className="portfolio__container">
         <PortfolioItem
-          src="images/Grateful/grateful1.png"
+          src="images/Grateful/grateful.png"
           title="Grateful"
           live="https://grateful-app.vercel.app/"
           client="https://github.com/josiehandeveloper/grateful-app.git"
