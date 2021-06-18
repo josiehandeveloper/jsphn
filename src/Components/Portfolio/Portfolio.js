@@ -30,22 +30,6 @@ function Portfolio() {
                     sites."
           tech="React.js, CSS3, Node.js, Express, PostgreSQL"
         />
-      </div>
-      <div className="portfolio__container">
-        <PortfolioItem
-          src="images/Grateful/grateful.png"
-          title="Grateful"
-          live="https://grateful-app.vercel.app/"
-          client="https://github.com/josiehandeveloper/grateful-app.git"
-          server="https://github.com/josiehandeveloper/grateful2-server.git"
-          text="Grateful is an application where users can log and practice
-                    their gratitude. This application is for everyone who wants
-                    to practice mindfulness. This pandemic has put a mental
-                    strain on all of us and it's important to recognize the toll
-                    it has taken on us and promote practices to achieve a better
-                    state of mental health."
-          tech="React.js, CSS3, Node.js, Express, PostgreSQL"
-        />
         <PortfolioItem
           src="images/UrbanGif/search-macbook.png"
           title="UrbanGif"
@@ -60,6 +44,22 @@ function Portfolio() {
           tech="JavaScript ES6, jQuery, CSS3, HTML 5"
         />
       </div>
+      {/* <div className="portfolio__container">
+        <PortfolioItem
+          src="images/Grateful/grateful.png"
+          title="Grateful"
+          live="https://grateful-app.vercel.app/"
+          client="https://github.com/josiehandeveloper/grateful-app.git"
+          server="https://github.com/josiehandeveloper/grateful2-server.git"
+          text="Grateful is an application where users can log and practice
+                    their gratitude. This application is for everyone who wants
+                    to practice mindfulness. This pandemic has put a mental
+                    strain on all of us and it's important to recognize the toll
+                    it has taken on us and promote practices to achieve a better
+                    state of mental health."
+          tech="React.js, CSS3, Node.js, Express, PostgreSQL"
+        />
+      </div> */}
     </div>
   );
 }
