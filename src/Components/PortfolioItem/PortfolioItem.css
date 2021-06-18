@@ -136,4 +136,7 @@
     min-height: 200px;
     object-fit: fit;
   }
+  .portfolio__item__info {
+    padding: 20px 10px 10px;
+  }
 }
