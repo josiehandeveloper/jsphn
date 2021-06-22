@@ -30,21 +30,8 @@ function Portfolio() {
                     sites."
           tech="React.js, CSS3, Node.js, Express, PostgreSQL"
         />
-        <PortfolioItem
-          src="images/UrbanGif/search-macbook.png"
-          title="UrbanGif"
-          live="https://josiehandeveloper.github.io/urban-gifs/"
-          client="https://github.com/josiehandeveloper/urban-gifs.git"
-          text="UrbanGifs is a fun application where users search within the
-                    UrbanDictionary database and the GIPHY database mashing both
-                    results onto a search page! This application is for those
-                    who like GIFS and Urban Dictionary, old and young users
-                    alike will find this search bar as a fun and dynamic way to
-                    search for words and GIFS."
-          tech="JavaScript ES6, jQuery, CSS3, HTML 5"
-        />
       </div>
-      {/* <div className="portfolio__container">
+      <div className="portfolio__container">
         <PortfolioItem
           src="images/Grateful/grateful.png"
           title="Grateful"
@@ -59,7 +46,20 @@ function Portfolio() {
                     state of mental health."
           tech="React.js, CSS3, Node.js, Express, PostgreSQL"
         />
-      </div> */}
+        <PortfolioItem
+          src="images/UrbanGif/search-macbook.png"
+          title="UrbanGif"
+          live="https://josiehandeveloper.github.io/urban-gifs/"
+          client="https://github.com/josiehandeveloper/urban-gifs.git"
+          text="UrbanGifs is a fun application where users search within the
+                    UrbanDictionary database and the GIPHY database mashing both
+                    results onto a search page! This application is for those
+                    who like GIFS and Urban Dictionary, old and young users
+                    alike will find this search bar as a fun and dynamic way to
+                    search for words and GIFS."
+          tech="JavaScript ES6, jQuery, CSS3, HTML 5"
+        />
+      </div>
     </div>
   );
 }
